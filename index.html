@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+   
+    
+    <title>Decodificador</title>
+</head>
+<body>
+    <header>
+        <img class="logo" src="img/logo.png" alt="logo-decodificador">
+        <div class="links">
+            <a  href="https://www.linkedin.com/in/anthony-santos-361745203/">
+                <img class="linkedin" src="img/logotipo-do-linkedin.png"  alt="Linkedin">
+            </a>
+            <a  href="https://github.com/AnthonySantoss">
+                <img class="Github" src="img/github (1).png" alt="Github">
+            </a>
+        </div>
+        
+    </header>
+        
+    
+
+    <main>    
+        
+        <section>
+            <textarea class="entrada_texto" name="" id="" cols="30" rows="10" placeholder="Digite seu texto"></textarea>
+            <article>
+                <img class="obs" src="img/ponto-de-exclamacao-em-um-circulo (1).png" alt="">
+                <p class="observacao">Apenas letras minúsculas e sem acento.</p>
+           </article>
+           <div class="button">
+            <button class="criptografar" onclick="botaoCriptografar()">Criptografar</button>
+            <button class="descriptografar" onclick="descriptografar()">Descriptografia</button>    
+           </div>
+            
+            </section>
+            <aside id="animacao">
+                <img class="personagem" id="homem" src="img/High quality products 1 1.png" alt="">
+                <div class="mensagem">
+                    <h1 class="titulo_receptor">Nenhuma mensagem encontrada</h1>
+                    <p class="paragrafor_receptor">Digite um texto que você deseja criptografar ou descriptografar.</p>
+                </div>
+                
+                <button id="copia"onclick="copiarTexto()">Cópia</button>
+            </aside>
+    </main>
+
+    
+                     
+    <footer class="fonte">
+        <p> Desenvolvido por Anthony Santos</p>
+    </footer>    
+    
+    <script src="js/decodificador.js"></script>
+</body>
+</html>
